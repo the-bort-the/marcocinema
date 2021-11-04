@@ -8,5 +8,7 @@ class customerTest {
 @Test
     public void customerCreate() {
     assertTrue(true);
+    String marcoCinema = "marcoCinema";
+    assertEquals("marcoCinema", marcoCinema);
 }
 }
